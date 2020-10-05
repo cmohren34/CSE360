@@ -10,20 +10,29 @@ public class AddingMachine {
     total = 0;  // not needed - included for clarity
   }
   
+  // should return the current total
   public int getTotal () {
-    return 0;
+    return total;
   }
   
+  // should add the parameter to the total variable
   public void add (int value) {
+    value += total;
   }
 
+  // should subtract the parameter from the total variable
   public void subtract (int value) {
+    value -= total;
   }
 
   public String toString () {
     return "";
   }
 
+  // should clear the "memory"
   public void clear() {
+    total = 0;
+
   }
+
 }
