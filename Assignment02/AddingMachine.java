@@ -26,7 +26,7 @@ public class AddingMachine {
   }
 
   public String toString () {
-    return "";
+    return " ";
   }
 
   // should clear the "memory"
