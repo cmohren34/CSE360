@@ -1,3 +1,6 @@
+// a class that is going to be used to complete a series of calculations
+// that include, adding, getting the total and subtracting as well as converting to a string
+
 package cse360assignment02;
 
 public class AddingMachine {
